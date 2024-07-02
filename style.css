@@ -1,0 +1,120 @@
+/* Main Container Style */
+#main{
+    text-align: center;
+}
+
+h1{
+    color: orchid;
+    margin-bottom: -5px;
+}
+
+/* Game Intructin Text style */
+#ins{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+}
+
+#ins b{
+    color: black;
+}
+
+p{
+    margin-bottom: -10px;
+}
+
+.ui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    border: none;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:active{
+    outline: none;
+}
+
+/* 3*3 Grid Style */
+#a1{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#a2{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#a3{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#a4{
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    border-right: 2px solid black;
+}
+
+#a5{
+    border: 2px solid black;
+}
+
+#a6{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+#a7{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#a8{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#a9{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+
+/* style of Reset Button */
+#btn{
+    box-sizing: border-box;
+    width: 100px;
+    height: 45px;
+    border: 2px solid dodgerblue;
+    margin-left: auto;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Player Turn Space Style */
+#print{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 22px;
+}
