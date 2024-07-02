@@ -43,6 +43,215 @@ function myfun(){
     }
     else if((a1 == 'x' || a1 == 'x') && (a4 == 'x' || a4 == 'x') && (a7 == 'x' || a7 == 'x')){
         document.getElementById('print').innerHTML = "Player X win";
-        
+
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a5btn.disabled = true;
+        a6btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a1btn.style.color = "red";
+        a4btn.style.color = "red";
+        a7btn.style.color = "red";  
+    }
+    else if ((a7 == 'x' || a7 == 'x') && (a8 == 'x' || a8 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a4btn.disabled = true;
+        a5btn.disabled = true;
+        a6btn.disabled = true;
+
+        a7btn.style.color = "red";
+        a8btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if ((a3 == 'x' || a3 == 'x') && (a6 == 'x' || a6 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a4btn.disabled = true;
+        a5btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+
+        a3btn.style.color = "red";
+        a6btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if ((a1 == 'x' || a1 == 'x') && (a5 == 'x' || a5 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a4btn.disabled = true;
+        a6btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+
+        a1btn.style.color = "red";
+        a5btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if((a3 == 'x' || a3 == 'x') && (a5 == 'x' || a5 == 'x') && (a7 == 'x' || a7 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a6btn.disabled = true;
+        a4btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a3btn.style.color = "red";
+        a5btn.style.color = "red";
+        a7btn.style.color = "red";
+    }
+    else if ((a2 == 'x' || a2 == 'x') && (a5 == 'x' || a5 == 'x') && (a8 == 'x' || a8 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a4btn.disabled = true;
+        a7btn.disabled = true;
+        a9btn.disabled = true;
+        a6btn.disabled = true;
+        a3btn.disabled = true;
+
+        a2btn.style.color = "red";
+        a5btn.style.color = "red";
+        a8btn.style.color = "red";
+    }
+    else if ((a4 == 'x' || a4 == 'x') && (a5 == 'x' || a5 == 'x') && (a6 == 'x' || a6 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a4btn.style.color = "red";
+        a5btn.style.color = "red";
+        a6btn.style.color = "red";
+    }
+
+    // checking of Player x finish
+    // checking for Player 0 starts, is Player 0 won or 
+    // not and after that disabled the other fields
+     else if((a1 == '0' || a1 =='0') && (a2 == '0' || a2 == '0') && (a3 == '0' || a3 == '0')){
+        document.getElementById('print').innerHTML = "Player 0 Win";
+        a4btn.disabled = true;
+        a5btn.disabled = true;
+        a6btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a1btn.style.color = "red";
+        a2btn.style.color = "red";
+        a3btn.style.color = "red";
+    }
+    else if((a1 == '0' || a1 == '0') && (a4 == '0' || a4 == '0') && (a7 == '0' || a7 == '0')){
+        document.getElementById('print').innerHTML = "Player 0 win";
+
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a5btn.disabled = true;
+        a6btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a1btn.style.color = "red";
+        a4btn.style.color = "red";
+        a7btn.style.color = "red";  
+    }
+    else if ((a7 == 'x' || a7 == 'x') && (a8 == 'x' || a8 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a4btn.disabled = true;
+        a5btn.disabled = true;
+        a6btn.disabled = true;
+
+        a7btn.style.color = "red";
+        a8btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if ((a3 == 'x' || a3 == 'x') && (a6 == 'x' || a6 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a4btn.disabled = true;
+        a5btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+
+        a3btn.style.color = "red";
+        a6btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if ((a1 == 'x' || a1 == 'x') && (a5 == 'x' || a5 == 'x') && (a9 == 'x' || a9 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a4btn.disabled = true;
+        a6btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+
+        a1btn.style.color = "red";
+        a5btn.style.color = "red";
+        a9btn.style.color = "red";
+    }
+    else if((a3 == 'x' || a3 == 'x') && (a5 == 'x' || a5 == 'x') && (a7 == 'x' || a7 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a6btn.disabled = true;
+        a4btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a3btn.style.color = "red";
+        a5btn.style.color = "red";
+        a7btn.style.color = "red";
+    }
+    else if ((a2 == 'x' || a2 == 'x') && (a5 == 'x' || a5 == 'x') && (a8 == 'x' || a8 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a4btn.disabled = true;
+        a7btn.disabled = true;
+        a9btn.disabled = true;
+        a6btn.disabled = true;
+        a3btn.disabled = true;
+
+        a2btn.style.color = "red";
+        a5btn.style.color = "red";
+        a8btn.style.color = "red";
+    }
+    else if ((a4 == 'x' || a4 == 'x') && (a5 == 'x' || a5 == 'x') && (a6 == 'x' || a6 == 'x')){
+        document.getElementById('print').innerHTML = "Player X win";
+
+        a1btn.disabled = true;
+        a2btn.disabled = true;
+        a3btn.disabled = true;
+        a7btn.disabled = true;
+        a8btn.disabled = true;
+        a9btn.disabled = true;
+
+        a4btn.style.color = "red";
+        a5btn.style.color = "red";
+        a6btn.style.color = "red";
     }
 }
